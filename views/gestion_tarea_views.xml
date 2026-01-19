@@ -35,7 +35,7 @@
                 <field name="state"/>
                 <templates>
                     <t t-name="kanban-box">
-                        <div class="o_kanban_record">
+                        <div class="o_kanban_record gestion_tarea_kanban">
                             <div>
                                 <strong><span t-esc="record.name.value"/></strong>
                             </div>
@@ -62,7 +62,7 @@
             </kanban>
         </field>
     </record>
-    
+
     <!-- Acción para abrir las vistas -->
     <record id="action_gestion_tareas" model="ir.actions.act_window">
         <field name="name">Gestión de Tareas</field>
